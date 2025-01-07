@@ -1,0 +1,15 @@
+@page "/user/register"
+
+<PageTitle>Register User</PageTitle>
+
+<div class="new-user-details">
+</div>
+<div class="user-register">
+    <div>
+        <label>Email Address:<InputText @bind-Value="Username"/></label>
+    </div>
+    <div>
+        <label>Password:<InputText @bind-Value="Password"/></label>
+    </div>
+    <button class="user-register-button" @onclick="@RegisterUserButton_Clicked">Register</button>
+</div>

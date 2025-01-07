@@ -1,0 +1,12 @@
+@page "/user/recipePreferences/{recipePreferenceCategoryId}"
+
+<div class="row justify-content-center m-3">
+    <div class="preferences-list">
+        <ul>
+        @foreach(var userRecipePreference in UserRecipePreferencesForCategory)
+        {
+            <li>@userRecipePreference.Name</li>
+        }
+        </ul>
+    </div>
+</div>

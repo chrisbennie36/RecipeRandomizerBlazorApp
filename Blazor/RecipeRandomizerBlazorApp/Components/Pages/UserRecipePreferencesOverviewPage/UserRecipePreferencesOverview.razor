@@ -1,0 +1,22 @@
+@page "/user/recipePreferencesOverview"
+
+<h3>Configured Recipe Preferences</h3>
+
+@if (UserRecipePreferenceCategories == null)
+{
+    <div class="spinner"></div>
+}
+<div class="card-deck">
+    @foreach(var userRecipePreferenceCategory in UserRecipePreferenceCategories)
+    {
+        <div class="card m-3" style="min-width: 18rem; max-width: 30.5%;">
+            <div class="card-header">
+                <h3>@userRecipePreferenceCategory.Category></h3>
+            </div>
+            <img class="card-img-top imageThumbnail" src="@userRecipePreferenceCategory.ImagePath">
+            <div class="card-footer text center">
+                <button class="btn-view-preferences" @onclick="() => OpenRecipePreferencesForCategory(userRecipePreferenceCategory.Category)">View @userRecipePreferenceCategory.Category Preferences</button>
+            </div>
+        </div>
+    }
+</div>

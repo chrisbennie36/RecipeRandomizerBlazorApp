@@ -1,0 +1,8 @@
+@page "/recipe/rate"
+
+<div>
+    <label>Rating (Out of 10):<InputText @bind-Value="RecipeRating"/></label>
+</div>
+<div>
+    <button class="rate-recipe-button" @onclick="@RateRecipeButton_Clicked">Rate!</button>
+</div>

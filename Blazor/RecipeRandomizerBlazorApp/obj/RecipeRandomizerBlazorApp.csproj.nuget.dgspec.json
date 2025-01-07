@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\RecipeRandomizerBlazorApp.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\RecipeRandomizerBlazorApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\RecipeRandomizerBlazorApp.csproj",
+        "projectName": "RecipeRandomizerBlazorApp",
+        "projectPath": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\RecipeRandomizerBlazorApp.csproj",
+        "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.3.4, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Sinks.AwsCloudWatch": {
+              "target": "Package",
+              "version": "[4.3.37, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

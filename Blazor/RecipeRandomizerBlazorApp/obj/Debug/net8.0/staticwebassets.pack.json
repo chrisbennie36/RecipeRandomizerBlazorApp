@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecipeRandomizerBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RecipeRandomizerBlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\images\\MeatCategory.jpg",
+      "PackagePath": "staticwebassets\\images\\MeatCategory.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\images\\PescatarianCategory.jpg",
+      "PackagePath": "staticwebassets\\images\\PescatarianCategory.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Chris\\Desktop\\Projects\\DotNet\\RecipeRandomizerBlazorApp\\Blazor\\RecipeRandomizerBlazorApp\\wwwroot\\images\\VegetarianCategory.jpg",
+      "PackagePath": "staticwebassets\\images\\VegetarianCategory.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RecipeRandomizerBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RecipeRandomizerBlazorApp.props",
+      "PackagePath": "build\\RecipeRandomizerBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RecipeRandomizerBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\RecipeRandomizerBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RecipeRandomizerBlazorApp.props",
+      "PackagePath": "buildTransitive\\RecipeRandomizerBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
